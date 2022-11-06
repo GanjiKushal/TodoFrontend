@@ -51,11 +51,12 @@
 }
 
 .logout {
-    margin-top: 340px;
+    margin-top: 300px;
 }
 
 
 .rightside{
+    margin-top: 2%;
     width: 85%;
     height:85vh;
 }

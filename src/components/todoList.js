@@ -6,7 +6,7 @@ function TodoList() {
     const [user, setUser] = useState("")
     const [todo, setTodo] = useState([]);
     const [completedTasks, setCompetedTasks] = useState([]);
-    const [visible, setVisible] = useState(false);
+    // const [visible, setVisible] = useState(false);
     const [toggle, setToggle] = useState(false)
     // states for timer
     const [seconds, setSceonds] = useState(0);
@@ -23,7 +23,7 @@ function TodoList() {
         let activity
         let time = `0${hours}:0${minutes}:${seconds}`
         todo.map((ele, i) => {
-            if (i == id) {
+            if (i === id) {
                 activity = ele.Activity
             }
         })
@@ -86,10 +86,10 @@ function TodoList() {
     // timer code started
     const startHandler = (e) => {
         e.preventDefault()
-        if (e.target.innerText == "Start") {
+        if (e.target.innerText === "Start") {
             e.target.innerText = "Pause"
         }
-        else if (e.target.innerText == "Pause") {
+        else if (e.target.innerText === "Pause") {
             e.target.innerText = "Start"
         }
         setTimeToggle(!timeToggle);
@@ -123,7 +123,7 @@ function TodoList() {
             <div className='top-bar'>
                 <h3 className='username'>{user}</h3>
             </div>
-            <div className="bodyContainer">
+            <div className="bottombar">
                 <div className='sidebar'>
                     <div>
                         <h2 className='todo'>TODO List</h2>
