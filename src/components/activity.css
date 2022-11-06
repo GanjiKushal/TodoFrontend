@@ -1,0 +1,36 @@
+/* *{
+    background-color: rgb(242, 243, 204);
+} */
+*{
+    font-family: 'Times New Roman', Times, serif;
+}
+.activity-Container{
+    width: 50%;
+    height:100vh;
+    border-radius: 50%;
+    display: flex;
+    justify-items: center;
+    align-content: center;
+    align-items:center ;
+    justify-content: center;
+    margin: auto;
+    background-color: greenyellow;
+    
+}
+.container-1{
+    background-color: rgb(245, 244, 169);
+    padding: 5%;
+}
+.h2tag1{
+    margin:20px;
+    font-family: 'Times New Roman', Times, serif;
+}
+.inputtag1{
+    padding:10px;
+    border: 0.5px solid black
+}
+.buttontag1{
+    padding:10px;
+    margin: 20px;
+    border-radius: 10px;
+}

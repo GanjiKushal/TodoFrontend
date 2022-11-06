@@ -1,0 +1,97 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.body {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+}
+
+.top-bar {
+    width: 100%;
+    height: 15vh;
+    border: 3px solid greenyellow;
+    display: flex;
+    flex-direction: row;
+    align-content: flex-end;
+    align-items: center;
+    justify-content: end;
+}
+
+.top-bar .username {
+    margin-right: 20px;
+}
+.bottombar{
+    width: 100%;
+    height:85vh;
+    display: flex;
+    flex-direction: row;
+
+}
+.sidebar {
+    width: 15%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    background-color: greenyellow;
+    
+ 
+}
+.sidebar * {
+    margin-top: 20px
+}
+
+.todo {
+    color: rgb(55, 0, 255);
+}
+
+.logout {
+    margin-top: 340px;
+}
+
+
+.rightside{
+    width: 85%;
+    height:85vh;
+}
+.rightside .button1{
+    margin-top: 2%;
+    margin-left: 40%;
+    padding:1%;
+    border-radius: 15px;
+    color: red;
+    border: none;
+    background-color: greenyellow;
+    font-weight: 600;
+}
+
+.tablebar{
+    margin-top: 3%;
+    display: flex;
+    justify-content: center;
+}
+table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 50%;
+}
+.tr1{
+    background-color: blue;
+} 
+td, th {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+}
+.button2{
+    margin:1%;
+    border-radius: 15px;
+    border: none;
+    background-color: greenyellow;
+    font-weight: 600;
+}
